@@ -9,7 +9,6 @@ A modern e-commerce web application designed to showcase and sell spiritual crys
 ## ✨ Features
 
 ### 🔐 Authentication
-- Signup with **OTP verification** (phone & email)
 - Secure login with role-based access (Admin & Buyer)
 
 ### 🛍️ User Panel
