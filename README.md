@@ -38,7 +38,7 @@ A modern e-commerce web application designed to showcase and sell spiritual crys
 ## 🔧 Project Setup
 
 ```bash
-git clone https://github.com/your-username/shankara-crystal-store.git
-cd shankara-crystal-store
+git clone github.com/hrishi2108/Crystal_store.git
+cd crystal-store
 npm install
 npm run dev
