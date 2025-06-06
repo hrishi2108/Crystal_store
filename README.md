@@ -1,12 +1,44 @@
-# React + Vite
+# Shankara Crystal Store 🪷
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application designed to showcase and sell spiritual crystals, healing stones, bracelets, pendants, candles, and more. Built using **React.js**, **Firebase**, and styled for a premium, intuitive shopping experience.
 
-Currently, two official plugins are available:
+[🌐 Live Website](https://shiny-lollipop-26ff8a.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Authentication
+- Signup with **OTP verification** (phone & email)
+- Secure login with role-based access (Admin & Buyer)
+
+### 🛍️ User Panel
+- Browse categorized products: Bracelets, Rings, Stones, Earrings, Pendants, Candles
+- Search and **sort products by price**
+- View product details
+- Mobile-responsive UI
+
+### 🧑‍💼 Admin Panel
+- Add, edit, and delete products
+- Upload product images to **Firebase Storage**
+- Store product data in **Firestore**
+- View list of orders and who ordered what
+
+### 💎 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js   | Frontend SPA Framework |
+| Firebase   | Authentication, Firestore, Storage |
+| Axios      | API Requests |
+| Netlify    | Deployment |
+
+---
+
+## 🔧 Project Setup
+
+```bash
+git clone https://github.com/your-username/shankara-crystal-store.git
+cd shankara-crystal-store
+npm install
+npm run dev
