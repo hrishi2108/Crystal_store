@@ -1,0 +1,87 @@
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #f6f1eb; /* off-white */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(140, 98, 57, 0.3); /* soft brown shadow */
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #8c6239; /* beige/brown */
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #8c6239;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px 12px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  width: 94%;
+  padding: 12px 0;
+  background-color: #8c6239;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a67c39;
+}
+
+.error-msg {
+  color: #d9534f;
+  margin-top: 12px;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #8c6239;
+}
+
+.signup-link a {
+  color: #8c6239;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-link a:hover {
+  color: #a67c39;
+}
+.success-msg {
+  color: #4caf50;
+  margin-top: 12px;
+}
+
+select {
+  width: 95%;
+  padding: 10px 12px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: white;
+}
